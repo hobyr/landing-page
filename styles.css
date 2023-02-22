@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* MY STYLE */
+
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #1f2937;
+	padding: 24px 20% 48px;
+	display: flex;
+	justify-content: space-between;
+	flex: 0;
+}
+
+.call-to-action {
+	padding: 30px 20% 100px;
+	background-color: #1f2937;
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+	gap: 40px;
+	flex-wrap: wrap-reverse;
+}
+
+.showcase {
+	padding: 40px 20% 100px;
+	flex: 1;
+}
+
+.quote {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+	padding: 80px 20%;
+}
+
+.call-to-action-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	margin: 120px 0;
+}
+
+footer {
+	background-color: #1f2937;
+	color: #e5e7eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
+	max-height: 50px;
+	flex: 0;
+}
+
+.logo-text {
+	font-size: 24px;
+	font-weight: 700;
+	color: #f9faf8;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-navbar-links {
+	display: flex;
+	gap: 12px;
+}
+
+.top-navbar-links-item > a {
+	color: #e5e7eb;
+}
+
+.hero-main-text {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+
+.top-navbar-links-item > a, .hero-secondary-text {
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+
+.call-to-action-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 20px;
+	max-height: 300px;
+	max-width: 500px;
+}
+
+
+.call-to-action-image {
+	min-width: 450px;
+	background-color: #999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #e5e7eb;
+}
+
+.signup {
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: #f9faf8;
+	background-color: #3882f6;
+	border: none;
+	font-weight: 700;
+}
+
+.information-header-text {
+	font-weight: 900;
+	font-size: 36px;
+	color: #1f2937;
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.card {
+	max-width: 150px;
+}
+
+.card-outline {
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+	border: 3px solid #3882f6;
+}
+
+.card > p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+
+.quote-text {
+	font-size: 36px;
+	font-weight: 100;
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.quote-author {
+	margin-top: 12px;
+	text-align: right;
+	font-size: 1.5em;
+}
+
+.cta {
+	background-color: #3882f6;
+	border-radius: 10px;
+	width: 70%;
+	max-width: 800px;
+	padding: 40px 80px;
+	color: #f9faf8;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-text-content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.call-to-action-footer.title, .call-to-action-footer.text {
+	margin: 0;
+}
+
+.call-to-action-footer.title {
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.contrast {
+	border: 1px solid white;
+}
