@@ -72,7 +72,6 @@ header {
 	justify-content: space-between;
 	flex: 1;
 	gap: 40px;
-	flex-wrap: wrap-reverse;
 }
 
 .showcase {
@@ -145,18 +144,21 @@ a {
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 20px;
-	max-height: 300px;
-	max-width: 500px;
+	width: 45%;
+	flex: 1;
 }
 
 
 .call-to-action-image {
-	min-width: 450px;
+	height: auto;
+	width: 45%;
 	background-color: #999;
+	flex: 1;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	color: #e5e7eb;
+	object-fit: cover;
 }
 
 .signup {
@@ -241,4 +243,13 @@ a {
 
 .contrast {
 	border: 1px solid white;
+}
+
+@media (max-width: 980px) {
+	.call-to-action {
+		flex-direction: column-reverse;
+	}
+	.call-to-action-text, .call-to-action-image {
+		width: 100%;
+	}
 }
