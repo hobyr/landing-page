@@ -3,70 +3,148 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles2.css" type="text/css" media="all">
     <title>Landing Page</title>
   </head>
   <body>
     <header class="">
-      <a class="logo-text" href="#">H/R</a>
-      <nav class="top-navbar">
-        <ul class="top-navbar-links">
-          <li class="top-navbar-links-item"><a href="" target="_blank">Home</a></li>
-          <li class="top-navbar-links-item"><a href="" target="_blank">Services</a></li>
-          <li class="top-navbar-links-item"><a href="" target="_blank">Gallery</a></li>
-          <li class="top-navbar-links-item"><a href="" target="_blank">About</a></li>
-        </ul>
-      </nav>
+      <div id="inner-header">
+        <a class="logo-text" href="#">H/R | Motorsports Photography</a>
+        <nav class="top-navbar">
+          <ul class="top-navbar-links">
+            <li class="top-navbar-links-item"><a href="#About">About</a></li>
+            <li class="top-navbar-links-item"><a href="#Services">Services</a></li>
+            <li class="top-navbar-links-item"><a href="#Gallery">Gallery</a></li>
+            <li class="top-navbar-links-item"><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div class="call-to-action">
-      <div class="call-to-action-text">
-        <h2 class="hero-main-text">Creating memories with photographs.</h2>
-        <p class="hero-secondary-text">Photography is accessible to anyone these days, and I want to help you creating memories for any event of your life. Let us work together to immortalize these precious moments!</p>
-        <button class="signup" type="submit">Hire me!</button>
-      </div>
-      <img src="http://addictedtoallthingspretty.com/wp-content/uploads/2018/08/Image_1-3.jpeg" alt="" class="call-to-action-image"/>
-    </div>
-
-    <div class="showcase">
-      <h2 class="information-header-text">What I offer.</h2>        
-      <div class="cards">
-        <article class="card">
-          <img src="https://www.thinkaha.com/wp-content/uploads/2012/09/happy-people-jumping-up-and-down-multicultural.jpg" alt="" class="card-outline"/>
-          <p>Optimistic, lively and encouraging personality for a no-stress, fun and easy-going shoot.</p>
-        </article>
-        <article class="card">
-          <img src="https://www.cameraegg.org/wp-content/uploads/2014/04/recommended-Best-lenses-for-5d-mark-ii-150x150.jpg" alt="" class="card-outline"/>
-          <p>Professional photographic equipment for excellent image quality.</p>
-        </article>
-        <article class="card">
-          <img src="https://cdn.flatworldsolutions.com/digital-photography/images/key-benefits-photo-editing-business.jpg" alt="" class="card-outline"/>
-          <p>End-to-end process with 3x re-edits for maximum satisfaction.</p>
-        </article>
-        <article class="card">
-          <img src="https://img.freepik.com/free-photo/delivery-man-with-packages-credit-card_23-2148447864.jpg?size=338&ext=jpg" alt="" class="card-outline"/>
-          <p>2-week delivery of results so you can share with your loved ones as quickly as possible.</p>
-        </article>
-      </div>
-    </div>
-
-    <div class="quote">
-      <p class="quote-text">I loved the photoshoot session. I was nervous coming in but the whole team put me at ease and I relaxed so quickly it shows in the photos, I'm so happy, definitely booking the H/R team again!</p>
-      <p class="quote-author">John D.</p>
-    </div>
-
-    <div class="call-to-action-footer">
-      <div class="cta">
-        <div class="cta-text-content">
-          <h2 class="call-to-action-footer title">Ready to shoot?</h2>
-          <p class="call-to-action-footer text">If you're excited to immortalize a once-in-a-lifetime moment in your life, get in touch with me.</p>
+    <main>
+      <img id="hero-cover" src="https://live.staticflickr.com/65535/48412944486_9ec3df77a5_k.jpg" alt="Toyota AE86 Festival 2018"/>
+      <section id="About">
+        <h2>About</h2>
+        <div class="section_description">
+          <p>I'm an engineer turned photographer since 2016. After doing photography in various genres, motorsports and car photography are the ones where I feel the happiest and produce my best work. I can fully express my creativity and still capture that wow factor that motorsport provides.</p>
+          <p>Through my visual work, I want to motivate anyone to experience motorsport events and be amazed at what these powerful machines can do. Motorsports is a human adventure where collaboration is essential and it's an experience like no other.</p>
         </div>
-        <button class="signup contrast" type="submit">Hire me!</button>
+      </section>
+
+      <section id="Services">
+        <h2>Services</h2>
+        <div class="section_description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+          <div class="items">
+            <div class="item-card">
+              <h3 class="item-card-title">Detailing</h3>
+              <div class="figure">
+                <img class="item-card-cover" src="https://live.staticflickr.com/65535/48413170211_5b4354e909_k.jpg" alt="Hitomi Go Practice Day October 2018"/>
+              </div class="figure">
+            </div>
+            <div class="item-card">
+              <h3 class="item-card-title">Environmental scenes</h3>
+              <div class="figure">
+              <img class="item-card-cover" src="https://live.staticflickr.com/65535/48412942021_0532608eca_k.jpg" alt="Toyota AE86 Festival 2018"/>
+              </div class="figure">
+            </div>
+            <div class="item-card">
+              <h3 class="item-card-title">Events</h3>
+            </div>
+            <div class="item-card">
+              <h3 class="item-card-title">Commercial</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Gallery">
+        <h2>Gallery</h2>
+        <div class="section_description">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="gallery">
+            <div class="gallery-row">
+              <img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/><img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/><img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/>
+            </div>
+            <div class="gallery-row">
+              <img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/><img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/><img src="https://live.staticflickr.com/65535/48519185106_7599584231_k.jpg" alt="Kansai All Stars 2019"/>
+            </div>
+           </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="Contact">
+        <h2>Contact</h2>
+        <div class="section_description">
+          <p>Ready to show how beautiful your car is? Or how awesome it is to attend your motorsport events?<br>
+          Get it touch below!</p>
+
+          <form action="" method="post">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="" placeholder="Your name">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" value="" placeholder="Your email"/>
+            <label for="request">Your request</label>
+            <textarea name="request" id="request" rows="10" cols="40" placeholder="e.g. I'd like to schedule a shoot on May 4th at Santa Monica Pier..."></textarea>
+            <button type="submit">Reserve my session!</button>
+          </form>
+        </div>
+      </section>
+
+      <!--
+      <div class="call-to-action">
+        <div class="call-to-action-text">
+          <h2 class="hero-main-text">Creating memories with photographs.</h2>
+          <p class="hero-secondary-text">Photography is accessible to anyone these days, and I want to help you creating memories for any event of your life. Let us work together to immortalize these precious moments!</p>
+          <button class="signup" type="submit">Hire me!</button>
+        </div>
+        <img src="http://addictedtoallthingspretty.com/wp-content/uploads/2018/08/Image_1-3.jpeg" alt="" class="call-to-action-image"/>
       </div>
-    </div>
+
+      <div class="showcase">
+        <h2 class="information-header-text">What I offer.</h2>        
+        <div class="cards">
+          <article class="card">
+            <img src="https://www.thinkaha.com/wp-content/uploads/2012/09/happy-people-jumping-up-and-down-multicultural.jpg" alt="" class="card-outline"/>
+            <p>Optimistic, lively and encouraging personality for a no-stress, fun and easy-going shoot.</p>
+          </article>
+          <article class="card">
+            <img src="https://www.cameraegg.org/wp-content/uploads/2014/04/recommended-Best-lenses-for-5d-mark-ii-150x150.jpg" alt="" class="card-outline"/>
+            <p>Professional photographic equipment for excellent image quality.</p>
+          </article>
+          <article class="card">
+            <img src="https://cdn.flatworldsolutions.com/digital-photography/images/key-benefits-photo-editing-business.jpg" alt="" class="card-outline"/>
+            <p>End-to-end process with 3x re-edits for maximum satisfaction.</p>
+          </article>
+          <article class="card">
+            <img src="https://img.freepik.com/free-photo/delivery-man-with-packages-credit-card_23-2148447864.jpg?size=338&ext=jpg" alt="" class="card-outline"/>
+            <p>2-week delivery of results so you can share with your loved ones as quickly as possible.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="quote">
+        <p class="quote-text">I loved the photoshoot session. I was nervous coming in but the whole team put me at ease and I relaxed so quickly it shows in the photos, I'm so happy, definitely booking the H/R team again!</p>
+        <p class="quote-author">John D.</p>
+      </div>
+
+      <div class="call-to-action-footer">
+        <div class="cta">
+          <div class="cta-text-content">
+            <h2 class="call-to-action-footer title">Ready to shoot?</h2>
+            <p class="call-to-action-footer text">If you're excited to immortalize a once-in-a-lifetime moment in your life, get in touch with me.</p>
+          </div>
+          <button class="signup contrast" type="submit">Hire me!</button>
+        </div>
+      </div>
+      -->
+    </main>
 
     <footer class="">
       Copyright © The Odin Project 2023
